@@ -1,13 +1,13 @@
 ---
 id: actividad-robin
-title: Actividad Robin
+title: Actividad Robin -1
 ---
 
 # Robin-BaseDatos
 
 # Actividad 1
 
-# Comandos de Busqueda SQL
+# Actividad Progresiva SQL — Subiendo de Nivel
 
 ## Nivel 1
 
@@ -115,6 +115,7 @@ WHERE TIMESTAMPDIFF(year, birth_date, CURDATE()) BETWEEN 30 and 40
 FROM users
 WHERE role = "admin" and TIMESTAMPDIFF(year, birth_date, CURDATE()) >= 25
 ```
+## Nivel 3
 
 - 16.Contar usuarios por role.
 
@@ -197,7 +198,7 @@ ORDER BY mayor_ingreso desc
 LIMIT 5
 ```
 
-## NIVEL 5
+## Nivel 5
 
 - 26.Clasificar usuarios como:
 

@@ -89,13 +89,13 @@ const config = {
           src: "img/perfil.png",
         },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "tutorialSidebar",
+          //   position: "left",
+          //   label: "Tutorrial",
+          // },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             type: "doc",
             docId: "actividad-robin",
